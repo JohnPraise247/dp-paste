@@ -81,7 +81,7 @@ const Index = {
                             roundedImage.src = roundedCanvas.toDataURL()
                             result.innerHTML = '';
                             imgAvatar.onload = function () {
-                             context.drawImage(imgAvatar, 169.4, 93.5, 173.6, 173.6);
+                             context.drawImage(imgAvatar, 363, 199, 380, 380);
                             }
                             imgAvatar.src = roundedCanvas.toDataURL();
                             
