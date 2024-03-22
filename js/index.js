@@ -107,7 +107,7 @@ const Index = {
                ]),
                step < 3?m(Stepper) : null
             ]),
-            m("canvas#canvas[width=500][height=500]",{ oncreate:()=> initCanvas(), class: canvasHidden?"hidden" : ""}, "Your browser does not support HTML5 Canvas."),
+            m("canvas#canvas[width=1280][height=1280]",{ oncreate:()=> initCanvas(), class: canvasHidden?"hidden" : ""}, "Your browser does not support HTML5 Canvas."),
         ]
     }
 };
