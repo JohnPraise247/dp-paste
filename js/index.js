@@ -107,7 +107,7 @@ const Index = {
                ]),
                step < 3?m(Stepper) : null
             ]),
-            m("canvas#canvas[width=1280][height=1280]",{ oncreate:()=> initCanvas(), class: canvasHidden?"hidden" : ""}, "Your browser does not support HTML5 Canvas."),
+            m("canvas#canvas[width=1080][height=1280]",{ oncreate:()=> initCanvas(), class: canvasHidden?"hidden" : ""}, "Your browser does not support HTML5 Canvas."),
         ]
     }
 };
@@ -141,7 +141,7 @@ const initCanvas = () =>{
     
     var img = new Image();
     img.onload = function () {
-     context.drawImage(img, 0, 0, 500, 500);
+     context.drawImage(img, 0, 0, 1080, 1080);
     }
     img.src = "img/template.png";
 }
